@@ -2,17 +2,17 @@ import mongoose from "mongoose";
 import { ProductModel } from "../Models/Products.js";
 
 export const AddProductStaff = async (req, res) => {
-    const vendorId = req.params.id;
-if(vendorId === null || !vendorId){
+  const vendorId = req.params.id;
+  if (vendorId === null || !vendorId) {
     return res.status(400).send("Please Try again , error occured");
-}
+  }
   function checkingVarUndefined(str) {
     if (!str || str.length === 0) {
       return null;
     }
     return str;
   }
-console.log(vendorId)
+  console.log(vendorId);
 
   try {
     const imgName = req.file ? req.file.filename : null;
@@ -26,7 +26,6 @@ console.log(vendorId)
       deliveryfee,
       productstartDate,
     } = req.body;
-
 
     if (!productname) {
       return res.status(400).send("Please Enter product name 1");
@@ -49,11 +48,11 @@ console.log(vendorId)
       ProductNewPrice: newprice,
       freeDelivery: freedelivery,
       deliveryFee: freedelivery ? 0 : deliveryfee,
-      ProductImg : imgName,
+      ProductImg: imgName,
       productStartdate: productstartDate,
     });
     await db.save();
-    console.log(db)
+    console.log(db);
     return res.status(200).json({
       isAdded: true,
       msg: "Product Added Succesfully",

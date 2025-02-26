@@ -25,7 +25,7 @@ export const AddProductAdmin = async (req, res) => {
 
 
     if (!productname) {
-      return res.status(400).send("Please Enter product name 1");
+      return res.status(400).send("Please Enter product name");
     }
     if (!newprice) {
       return res.status(400).send("Please Enter product new price");

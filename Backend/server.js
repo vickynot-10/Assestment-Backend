@@ -29,5 +29,5 @@ app.get("/test", (req, res) => {
 });
 
 app.listen(Port, () => {
-  console.log("Runing");
+  console.log("Running");
 });

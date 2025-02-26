@@ -1,0 +1,594 @@
+{
+	"info": {
+		"_postman_id": "56fd3266-f413-4930-b614-d7fd7d89e894",
+		"name": "Backend-Assesment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37198997"
+	},
+	"item": [
+		{
+			"name": "Check_if_works",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_Products_with_PageLimits_Home_page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-product?page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-product"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User-Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"vicky\",\r\n    \"email\": \"test123@example.com\",\r\n    \"password\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User_Login",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"test123@example.com\",\r\n    \"password\" : \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vendor_signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"vendordummy\",\r\n    \"email\" : \"vendordummy@mail.in\",\r\n    \"password\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/vendor/SignUp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"vendor",
+						"SignUp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor_login",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"vendordummy@mail.in\",\r\n    \"password\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/vendor/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"vendor",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vendor_adding_projects",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productname",
+							"value": "Duumyproduct1",
+							"type": "text"
+						},
+						{
+							"key": "newprice",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "oldprice",
+							"value": "125",
+							"type": "text"
+						},
+						{
+							"key": "productstartDate",
+							"value": "12/01/2025",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3030/add-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"add-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vendor-Viewing-Products-respected-products",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/view-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"view-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Separate-product-view-Vendor",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-product/view/67bf8d5222f35bde85e731ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-product",
+						"view",
+						"67bf8d5222f35bde85e731ef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Separate-Product-view-User",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/get-product/users/view/67bf8d5222f35bde85e731ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"get-product",
+						"users",
+						"view",
+						"67bf8d5222f35bde85e731ef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin_Login",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"admin@mail.in\",\r\n    \"password\" : \"admin123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/admin/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin_viewing-users",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/admin/get-users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"get-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin-view-Staffs",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/admin/get-staffs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"get-staffs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff-Acc-create_by-Admin",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"staff-dummy\",\r\n    \"email\" : \"staf12345@mail.in\",\r\n    \"password\" : \"1\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/add-staff-acc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"add-staff-acc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin-Add-Product",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productname",
+							"value": "Product name",
+							"type": "text"
+						},
+						{
+							"key": "newprice",
+							"value": "120",
+							"type": "text"
+						},
+						{
+							"key": "oldprice",
+							"value": "130",
+							"type": "text"
+						},
+						{
+							"key": "productstartDate",
+							"value": "12/02/2002",
+							"type": "text"
+						},
+						{
+							"key": "productimg",
+							"type": "file",
+							"src": "c:\\Users\\user\\Pictures\\Screenshots\\Screenshot (156).png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3030/admin/add-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"add-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff-Login",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"staff@mail.in\",\r\n    \"password\" : \"staff123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/staff/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"staff",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff-Add-Product-Assigned-Vendor",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productname\" : \"produc-staff\",\r\n    \"newprice\" : \"100\",\r\n    \"oldprice\" : \"120\",\r\n    \"productstartDate\" :\"12/03/2020\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/staff/add-product/67bf8d5222f35bde85e731ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"staff",
+						"add-product",
+						"67bf8d5222f35bde85e731ef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search-Box",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/search?Searchquery=ds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "Searchquery",
+							"value": "ds"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User-Identification-bw-Profiles",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/user/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"user",
+						"me"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
