@@ -1,0 +1,430 @@
+[{
+  "_id": {
+    "$oid": "67beaf67e7a5d4a43db864d1"
+  },
+  "ProductName": "ds",
+  "ProductDesc": "sd",
+  "ProductCategory": null,
+  "ProductOldPrice": null,
+  "ProductNewPrice": 231,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-21T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-28T00:00:00.000Z"
+  },
+  "discountAmt": -231,
+  "discountPercentage": {
+    "$numberDouble": "-Infinity"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67beb22da50a421eb42c5325"
+  },
+  "ProductName": "ds",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 5,
+  "ProductNewPrice": 20,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-14T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-21T00:00:00.000Z"
+  },
+  "discountAmt": -15,
+  "discountPercentage": -300,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67beb3c81d9d70029753170d"
+  },
+  "ProductName": "ds",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 5,
+  "ProductNewPrice": 20,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-14T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-21T00:00:00.000Z"
+  },
+  "discountAmt": 0,
+  "discountPercentage": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67beb3db1d9d70029753170f"
+  },
+  "ProductName": "ds",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 30,
+  "ProductNewPrice": 20,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-14T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-21T00:00:00.000Z"
+  },
+  "discountAmt": 10,
+  "discountPercentage": 33.33,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67beba03ce593742a9b5e2aa"
+  },
+  "ProductName": "ds",
+  "ProductDesc": "gfnb",
+  "ProductCategory": null,
+  "ProductOldPrice": 233,
+  "ProductNewPrice": 212,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-12T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-19T00:00:00.000Z"
+  },
+  "discountAmt": 21,
+  "discountPercentage": 9.01,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67beba3b26440b33bfe7cc24"
+  },
+  "ProductOwner": {
+    "$oid": "67beae4ca3d6c645eacddda1"
+  },
+  "ProductName": "ds",
+  "ProductDesc": "gfnb",
+  "ProductCategory": null,
+  "ProductOldPrice": 233,
+  "ProductNewPrice": 212,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-12T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-19T00:00:00.000Z"
+  },
+  "discountAmt": 21,
+  "discountPercentage": 9.01,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bebd842ed986305e1f5ca3"
+  },
+  "ProductOwner": {
+    "$oid": "67beae4ca3d6c645eacddda1"
+  },
+  "ProductName": "1pro",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 12,
+  "ProductNewPrice": 12,
+  "freeDelivery": false,
+  "deliveryFee": null,
+  "productStartdate": {
+    "$date": "2025-02-20T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "discountAmt": 0,
+  "discountPercentage": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bec6daa9cdaafd8ac8482a"
+  },
+  "ProductImg": "1740555994492.png",
+  "ProductOwner": {
+    "$oid": "67beae4ca3d6c645eacddda1"
+  },
+  "ProductName": "img product2",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 12,
+  "ProductNewPrice": 12,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-02-13T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-20T00:00:00.000Z"
+  },
+  "discountAmt": 0,
+  "discountPercentage": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf2a671245622fb9ddd80b"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf0e2b15f7bde9ad2986ec"
+  },
+  "ProductName": "sdxc",
+  "ProductDesc": "sdsdf",
+  "ProductCategory": "dsf",
+  "ProductOldPrice": 34,
+  "ProductNewPrice": 43,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-03-06T00:00:00.000Z"
+  },
+  "discountAmt": 0,
+  "discountPercentage": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf65883d8989489cf82a65"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf6148c245a7f1495adace"
+  },
+  "ProductName": "vendor-check-staff",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 12,
+  "ProductNewPrice": 12,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-03-06T00:00:00.000Z"
+  },
+  "discountAmt": 0,
+  "discountPercentage": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf65aa3d8989489cf82a6a"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf6148c245a7f1495adace"
+  },
+  "ProductName": "vendorId-2",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 12,
+  "ProductNewPrice": 12,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-02-12T00:00:00.000Z"
+  },
+  "discountAmt": 0,
+  "discountPercentage": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf8d5222f35bde85e731ef"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf8b621cd86cc527f0136b"
+  },
+  "ProductName": "Duumyproduct1",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 125,
+  "ProductNewPrice": 100,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-11-30T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-12-07T18:30:00.000Z"
+  },
+  "discountAmt": 25,
+  "discountPercentage": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf903322f35bde85e73205"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf0e2b15f7bde9ad2986ec"
+  },
+  "ProductName": "Duumyproduct1",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 125,
+  "ProductNewPrice": 100,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-11-30T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-12-07T18:30:00.000Z"
+  },
+  "discountAmt": 25,
+  "discountPercentage": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf91604126d320f95e918e"
+  },
+  "ProductImg": "1740607840474.png",
+  "ProductOwner": {
+    "$oid": "67bf0e2b15f7bde9ad2986ec"
+  },
+  "ProductName": "Product name",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 130,
+  "ProductNewPrice": 120,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2002-12-01T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2002-12-08T18:30:00.000Z"
+  },
+  "discountAmt": 10,
+  "discountPercentage": 7.69,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf927c8c25424932c6bd4b"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf8d5222f35bde85e731ef"
+  },
+  "ProductName": "produc-staff",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 120,
+  "ProductNewPrice": 100,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2020-12-02T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2020-12-09T18:30:00.000Z"
+  },
+  "discountAmt": 20,
+  "discountPercentage": 16.67,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf93ac8c25424932c6bd5f"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf8b621cd86cc527f0136b"
+  },
+  "ProductName": "Duumyproduct1",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 125,
+  "ProductNewPrice": 100,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2025-11-30T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2025-12-07T18:30:00.000Z"
+  },
+  "discountAmt": 25,
+  "discountPercentage": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf93b28c25424932c6bd6f"
+  },
+  "ProductImg": "1740608433855.png",
+  "ProductOwner": {
+    "$oid": "67bf0e2b15f7bde9ad2986ec"
+  },
+  "ProductName": "Product name",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 130,
+  "ProductNewPrice": 120,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2002-12-01T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2002-12-08T18:30:00.000Z"
+  },
+  "discountAmt": 10,
+  "discountPercentage": 7.69,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf93b38c25424932c6bd73"
+  },
+  "ProductImg": null,
+  "ProductOwner": {
+    "$oid": "67bf8d5222f35bde85e731ef"
+  },
+  "ProductName": "produc-staff",
+  "ProductDesc": null,
+  "ProductCategory": null,
+  "ProductOldPrice": 120,
+  "ProductNewPrice": 100,
+  "freeDelivery": false,
+  "deliveryFee": 0,
+  "productStartdate": {
+    "$date": "2020-12-02T18:30:00.000Z"
+  },
+  "expirydate": {
+    "$date": "2020-12-09T18:30:00.000Z"
+  },
+  "discountAmt": 20,
+  "discountPercentage": 16.67,
+  "__v": 0
+}]
